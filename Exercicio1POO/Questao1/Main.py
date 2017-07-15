@@ -1,4 +1,4 @@
-from Questao1.Model import *
+from Exercicio1POO.Questao1.Model import *
 
 def main():
     c1 = Cachorro("Rex", 50, "Casinha", "Labrador")
