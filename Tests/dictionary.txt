@@ -1,0 +1,6 @@
+carrot
+bean
+pineapple
+apple
+potato
+rice
