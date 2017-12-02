@@ -15,8 +15,17 @@ def main():
     usuarios = cursor.fetchall()
 
     for usuario in usuarios:
-        print("%s - NOME: %s, E-MAIL: %s, SENHA: %s, DATA NASCIMENTO: %s, PROFISSAO: %s, GENERO: %s, CIDADE: %s, ESTADO: %s, PAÍS: %s" %
-              (usuario[0], usuario[1], usuario[2], usuario[3], usuario[4], usuario[5], usuario[6], usuario[7], usuario[8], usuario[9]))
+        print("ID:", usuario[0])
+        print("NOME:", usuario[1])
+        print("E-MAIL:", usuario[2])
+        print("SENHA:", usuario[3])
+        print("DATA NASCIMENTO:", usuario[4])
+        print("PROFISSÃO:", usuario[5])
+        print("GÊNERO:", usuario[6])
+        print("CIDADE:", usuario[7])
+        print("ESTADO:", usuario[8])
+        print("PAÍS:", usuario[9])
+        print("--------------------------")
 
     conn.close()
 
